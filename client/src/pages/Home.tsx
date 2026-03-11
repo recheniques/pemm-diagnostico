@@ -150,6 +150,18 @@ export default function Home({ onResultsReady, onBackToLanding }: HomeProps = {}
             >
               Comenzar Evaluacion
             </Button>
+
+            <Button
+              onClick={() => {
+                if (onBackToLanding) {
+                  onBackToLanding();
+                }
+              }}
+              variant="outline"
+              className="w-full"
+            >
+              Volver a Opciones (Freemium/Premium)
+            </Button>
           </div>
         </Card>
       </div>
