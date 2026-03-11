@@ -76,6 +76,10 @@ export default function Home({ onResultsReady, onBackToLanding }: HomeProps = {}
     setUserName('');
     setUserEmail('');
     setHasStarted(false);
+    // Navigate back to landing screen
+    if (onBackToLanding) {
+      onBackToLanding();
+    }
   };
 
   const handleStartAssessment = () => {
