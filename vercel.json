@@ -1,7 +1,5 @@
 {
   "buildCommand": "pnpm run build",
   "outputDirectory": "dist",
-  "framework": "vite",
-  "regions": ["sfo1"],
-  "functions": {}
+  "framework": "vite"
 }
